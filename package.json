@@ -12,7 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "homepage":"http://ayman2000000.github.io/biskit",
+    "homepage":"https://ayman2000000.github.io/biskit",
     "@cometchat/calls-sdk-javascript": "^4.1.0",
     "@cometchat/chat-uikit-react": "^6.0.7",
     "gh-pages": "^6.3.0",
