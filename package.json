@@ -6,12 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "homepage":"http://ayman2000000.github.io/biskit",
     "@cometchat/calls-sdk-javascript": "^4.1.0",
     "@cometchat/chat-uikit-react": "^6.0.7",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
